@@ -12,7 +12,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "jest ",
-    "netlify": "netlify",
+    "netlify": "netlify dev",
     "export-result": "NODE_ENV=development node ./scripts/export-results.js"
   },
   "dependencies": {

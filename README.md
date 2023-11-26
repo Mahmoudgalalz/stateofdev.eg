@@ -34,6 +34,14 @@ The website is built using [Gatsbyjs](http://gatsbyjs.org) and [Netlify](https:/
 - Create a [recaptcha v3 application](https://www.google.com/recaptcha/about/)
 - Copy your keys to `env.development`:
 
+#### Requirements
+
+- Nodejs v16.x
+- use yarn to install
+
+you could use nvm to switch the version of Node
+
+
 ```env
 # firebase client auth
 GATSBY_FIREBASE_API_KEY=
@@ -54,11 +62,14 @@ RECAPTCHA_SECRET_KEY=
 
 - Navigate into your new website's directory and start it up.
 
+- Install netlify-cli globally
 ```sh
-cd stateofdev.ma/
-yarn install
-yarn netlify dev
+cd stateofdev.eg/
+npm install netlify-cli --save-dev
+yarn install --frozen-lockfile
+yarn netlify
 ```
+
 
 3.  **Open the source code and start editing!**
 
