@@ -9,112 +9,201 @@ questions:
       - Male
       - Female
 
-  - label: What is your age?
+  - label: Your job title?
     required: true
     choices:
-      - Younger than 18 years
-      - 18 to 24 years
-      - 25 to 34 years
-      - 35 to 44 years
-      - 45 or older
-
-  - label: Where are you currently located?
-    required: true
-    choices:
-      - "Rabat-Salé-Kénitra"
-      - "Casablanca-Settat"
-      - "Marrakech-Safi"
-      - "Tanger-Tétouan-Al Hoceïma"
-      - "L'Oriental"
-      - "Fès-Meknès"
-      - "Béni Mellal-Khénifra"
-      - "Drâa-Tafilalet"
-      - "Souss-Massa"
-      - "Guelmim-Oued Noun"
-      - "Laâyoune-Sakia El Hamra"
-      - "Dakhla-Oued Ed Dahab"
-      - Europe
-      - "US & Canada"
-      - "Middle East"
+      - Backend Engineer
+      - Frontend Engineer
+      - Full-stack Engineer
+      - QA / SDET Engineer
+      - Mobile Development Engineer
+      - DevOps / SRE / Platform
+      - Data Scientist
+      - Data Engineer
+      - Data Analytics
+      - Engineering Manager
+      - Systems Architect
+      - Embedded Systems Engineer
+      - R&D Engineer (Computer Vision, NLP, etc.)
+      - AI & Automation Engineer
+      - UI/UX Designer/Engineer
+      - Hardware Engineer (Semiconductors, Digital Design, Electronics, etc)
+      - Product Owner
+      - Product Manager
+      - Scrum Master
       - Others
 
-  - label: What is your occupation?
+  - label: Your level at your current company is
     required: true
     choices:
-      - Back-end developer
-      - Full-stack developer
-      - Front-end developer
-      - Desktop applications developer
-      - Mobile developer
-      - Embedded applications/devices developer
-      - QA/test Develper
-      - Game/graphics Developer
-      - DevOps specialist
-      - Database administrator
-      - Designer
-      - System administrator
-      - Data/business analyst
-      - Data scientist or machine learning specialist
-      - Data engineer
-      - Academic researcher
-      - Educator
-      - Engineering manager
-      - Product manager
-      - Scientist
-      - Site reliability engineer
-      - Senior executive/VP
-      - Marketing/sales professional
-      - Network engineer
-      - Security specialist
-      - IT specialist
+      - Junior (Software Engineer, Data Scientist, Product Manager, etc.)
+      - Mid-level (Software Engineer, Data Scientist, Product Manager, etc.)
+      - Senior (Software Engineer, Data Scientist, Product Manager, etc.)
+      - Team Lead
+      - Staff (Software Engineer, Data Scientist, Product Manager, etc.)
+      - Senior Staff (Software Engineer, Data Scientist, Product Manager, etc.)
+      - Principal (Software Engineer, Data Scientist, Product Manager, etc.)
+      - Group Product Manager
+      - Head of Products
+      - Senior Principal (Software Engineer, Data Scientist, Product Manager, etc.)
+      - Manager
+      - Senior Manager
+      - Director
+      - Group Director
+      - VP (Engineering, Product, etc.)
+      - CTO / CPO / Chief Scientist / etc.
+      - Others
 
-  - label: What is your highest diploma?
+  - label: You receive your salary in (Or your salary is equivalent/pegged to)
     required: true
     choices:
-      - Self-taught
-      - Bac +2/+3, Bachelor’s degree (B.A., B.S., B.Eng., etc.)
-      - Bac +5, Master’s degree (M.A., M.S., M.Eng., MBA, etc.)
-      - Bac +8, Other doctoral degree (Ph.D., Ed.D., etc.)
+      - EGP
+      - USD
+      - EUR
+      - SAR
+      - AED
+      - GBP
+      - KWD
+      - Others
 
-  - label: How many years have you been coding professionally?
+  - label: NET basic salary (With the currency you receive your salary with/or salary is pegged to) - Monthly (2 thousands == 2000)
     required: true
     choices:
-      - "I don't have any professional coding experience"
-      - Less than a year
-      - 1-2 years
-      - 3-4 years
-      - 5-6 years
-      - 7-10 years
-      - 11-16 years
-      - 16+ years
+      - Others
 
-  - label: Is coding a hobby for you?
-    required: true
+  - label: if you're receiving allowances like transportation, inflation, mobile, etc. (With the currency you receive your salary with/or salary is pegged to) (2 thousands == 2000) they are equal to
+    required: false
     choices:
-      - Yes
-      - No
+      - Others
 
-  - label: Do you have any plans to work outside Morocco?
-    required: true
+  - label: if you're receiving bonuses, what's the average total bonus during the year (With the currency you receive your salary with/or salary is pegged to) (2 thousands == 2000) almost equals to
+    required: false
     choices:
-      - Yes, in the next 12 months
-      - Yes, in the next 24 months
-      - Still hesitating
-      - Currently working outside Morocco
-      - No
+      - Others
 
-  - label: If you are working abroad, do you have any plans to come back to Morocco?
+  - label: If you're receiving stocks/equity, what's the value in ONE YEAR (In USD, 2 thousands == 2000)
+    required: false
     choices:
-      - Yes
-      - Still hesitating
-      - No
+      - Others
 
-  - label: What do you usually drink while coding?
-    required: true
+  - label: Do you want to add any notes about your bonuses that weren't covered in the previous questions?
+    required: false
     choices:
-      - Tea
-      - Coffee
-      - Water
-      - Energy drinks
-      - None
       - Other
+  
+  - label: Did you work at the same company last year (September 2022) ?
+    required: false
+    choices:
+      - Yes
+      - No
+  
+  - label: Last year, you used to receive your salary in (Or your salary is equivalent/pegged to)
+    required: true
+    choices:
+      - EGP
+      - USD
+      - EUR
+      - SAR
+      - AED
+      - GBP
+      - KWD
+      - Others
+  - label: Last year's net salary in EGP - MONTHLY (With the currency you received your salary with/or salary is pegged to) (Any salary between August-December 2022 for example)
+    required: false
+    choices:
+      - Others
+  - label: Your current company's name (Having the company's name is our only way to validate that your record can be trusted. We guarantee it's not to be published anywhere, If there's no way you can add it then type ***** to override the validation)
+    required: false
+    choices:
+      - Others
+  - label: Company Location in case it's operating from Egypt (Majority of employees are working from Egypt, not necessarily the HQ)
+    required: true
+    choices:
+      - Cairo
+      - Alexandria
+      - Hurghada (Or Gouna)
+      - Port Said / Suez
+      - Mansoura
+      - Faiyum
+      - Luxor / Aswan
+      - Others
+  - label: Your company is considered
+    required: true
+    choices:
+      - A Start-up
+      - A Small and Medium Enterprise
+      - Large Enterprise or Multinational Company
+      - Others
+
+  - label: You work in a
+    required: true
+    choices:
+      - Software House
+      - Product-based company
+      - Others
+
+  - label: The business main focus is
+    required: true
+    choices:
+      - B2B
+      - B2C
+      - B2B & B2C lines
+      - Others
+  - label: You work from
+    required: true
+    choices:
+      - Office for a company in Egypt
+      - Home for a company in Egypt
+      - Hybrid for a company in Egypt (e.g 2-3 days from home or office)
+      - Home for a company abroad (Remote employee)
+      - Abroad in another country (Relocated elsewhere)
+      - Others
+
+  - label: Do you think you earn what you deserve?
+    required: true
+    choices:
+      - Yes
+      - No, I should earn more than that
+      - No, I should earn less than that
+      - Not sure
+      - Others
+  
+  - label: Do you think you are placed in the level you deserve?
+    required: true
+    choices:
+      - Yes
+      - No, I should be in a higher level
+      - No, I should be in a lesser level
+      - Not sure
+      - Others
+
+  - label: If you were to apply for a new job, how much your expected net salary will be? (With the currency you currently receive your salary with/or salary is pegged to) (2 thousands == 2000)
+    required: false
+    choices:
+      - Others
+
+  - label: Do you prefer working from office or home?
+    required: false
+    choices:
+      - Home
+      - Office
+      - Hybrid (2-3 Days from either of them)
+      - Others
+
+  - label: Do you have a Computer Science, Computer Engineering, Business Information or a similar education background? 
+    required: true
+    choices:
+      - Yes
+      - No
+    
+  - label: Did a company that you worked in during 2023 had layoffs?
+    required: true
+    choices:
+      - Yes
+      - No
+
+  - label: In case the previous answer was Yes, were you affected by these layoffs?
+    required: true
+    choices:
+      - Yes
+      - No
