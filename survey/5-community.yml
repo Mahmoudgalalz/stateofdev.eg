@@ -53,21 +53,13 @@ questions:
       - "1-3"
       - "More than 3"
 
-  - label: "How many talks did you participate in the last 12 months?"
-    required: true
-    choices:
-      - "0"
-      - "1 - 3 talks"
-      - "More than 3"
-
   - label: "Do you prefer?"
     required: true
     choices:
       - Live/online events
       - In-person events?
-      - Li ja bismillah
 
-  - label: "How do you evaluate the Moroccan Tech Community?"
+  - label: "How do you evaluate the Egypt's Tech Community?"
     required: true
     choices:
       - Bad

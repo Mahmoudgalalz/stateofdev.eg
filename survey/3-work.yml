@@ -2,141 +2,141 @@ title: Work
 label: work
 position: 3
 questions:
-  - label: "What is your employment status?"
-    required: true
-    multiple: false
-    choices:
-      - Founder/entrepreneur
-      - Employed full-time
-      - Freelancer/self-employed
-      - Employed part-time
-      - Looking for work
-      - Internship
-      - Student
-
-  - label: How often do you work overtime or beyond the formal time expectation of your job?
-    choices:
-      - Never
-      - "Rarely: 1-2 days per year or less "
-      - "Occasionally: 1-2 days per quarter but less than monthly "
-      - "Sometimes: 1-2 days per month but less than weekly"
-      - "Often: 1-2 days per week or more"
-
-  - label: How do you feel about your job?
-    choices:
-      - Very Unsatisfied
-      - Slightly Unsatisfied
-      - Neither satisfied nor Unsatisfied
-      - Slightly satisfied
-      - Very satisfied
-
-  - label: Do you work on a side project?
+  - label: You receive your salary in (Or your salary is equivalent/pegged to)
     required: true
     choices:
-      - No
-      - Yes For profit
-      - Yes For learning
+      - EGP
+      - USD
+      - EUR
+      - SAR
+      - AED
+      - GBP
+      - KWD
+      - Others
 
-  - label: How long have you been unemployed after graduation?
-    choices:
-      - None, I worked straight after my graduation 😎
-      - Up to 3 months
-      - Up to 6 months
-      - Up to 1 year
-      - More than 1 year
-
-  - label: "If you are working full-time contract in Morocco(CDI), Your NET salary range per month in MAD is:"
-    choices:
-      - "< 4 000"
-      - "4 000 - 6 000"
-      - "6 000 - 8 000"
-      - "8 000 - 10 000"
-      - "10 000 - 12 000"
-      - "12 000 - 14 000"
-      - "14 000 - 16 000"
-      - "16 000 - 18 000"
-      - "18 000 - 20 000"
-      - "20 000 - 22 000"
-      - "22 000 - 25 000"
-      - "25 000 - 30 000"
-      - "> 30 000"
-
-  - label: "If you are working as a freelancer in Morocco, Your salary range per day in MAD(TJM) is:"
-    choices:
-      - "< 1 000"
-      - "1 000 - 1 500"
-      - "1 500 - 2 000"
-      - "2 000 - 2 500"
-      - "2 500 - 3 000"
-      - "3 000 - 4 000"
-      - "4 000 - 5 000"
-      - "> 5 000"
-
-  - label: "If you are working full-time contract outside Morocco, Your gross salary range per year in USD is:"
-    choices:
-      - "< 20 000"
-      - "20 000 - 25 000"
-      - "30 500 - 40 000"
-      - "40 000 - 50 000"
-      - "50 000 - 60 000"
-      - "60 000 - 80 000"
-      - "80 000 - 100 000"
-      - "100 000 - 120 000"
-      - "120 000 - 150 000"
-      - "150 000 - 200 000"
-      - "> 200 000"
-
-  - label: "If you are working as a freelancer outside Morocco, Your daily gross wage in USD is:"
-    choices:
-      - "< 200"
-      - "200 - 500"
-      - "500 - 1 000"
-      - "1 000 - 2 000"
-      - "2 000 - 3 000"
-      - "3 000 - 5 000"
-      - "5 000 - 10 000"
-      - "> 10 000"
-
-  - label: What characteristics would mostly influence your decision to choose one job offer over another?
-    required: true
-    multiple: true
-    choices:
-      - Languages, frameworks, and other technologies I’d be working on
-      - Office environment or company culture
-      - Flexible time or schedule
-      - Opportunities for professional development
-      - Remote work options
-      - How widely used or impactful my work output would be
-      - The industry that I’d be working in
-      - Company paid training and certifications
-      - Salary
-
-  - label: What type of company do you prefer?
+  - label: NET basic salary (With the currency you receive your salary with/or salary is pegged to) - Monthly (2 thousands == 2000)
     required: true
     choices:
-      - Self-employed
-      - Company under 10 employees
-      - Company between 11 and 30 employees
-      - Company between 31 and 100 employees
-      - Company above 100 employees
+      - Others
 
-  - label: What agile software development methodology do you use in your team, if any?
+  - label: if you're receiving allowances like transportation, inflation, mobile, etc. (With the currency you receive your salary with/or salary is pegged to) (2 thousands == 2000) they are equal to
+    required: false
     choices:
-      - Scrum
-      - Kanban
-      - XP
+      - Others
+
+  - label: if you're receiving bonuses, what's the average total bonus during the year (With the currency you receive your salary with/or salary is pegged to) (2 thousands == 2000) almost equals to
+    required: false
+    choices:
+      - Others
+
+  - label: If you're receiving stocks/equity, what's the value in ONE YEAR (In USD, 2 thousands == 2000)
+    required: false
+    choices:
+      - Others
+
+  - label: Do you want to add any notes about your bonuses that weren't covered in the previous questions?
+    required: false
+    choices:
       - Other
-      - None
-
-  - label: As more companies looking into opening their offices, What options are provided by your employer?
+  
+  - label: Did you work at the same company last year (September 2022) ?
+    required: false
     choices:
-      - Back to office
-      - Full remote
-      - Hybrid
-
-  - label: After COVID-19, What is your preferred mode of working?
+      - Yes
+      - No
+  
+  - label: Last year, you used to receive your salary in (Or your salary is equivalent/pegged to)
     required: true
     choices:
-      - In the office
-      - Full remote
-      - Part-time remote
+      - EGP
+      - USD
+      - EUR
+      - SAR
+      - AED
+      - GBP
+      - KWD
+      - Others
+  - label: Last year's net salary in EGP - MONTHLY (With the currency you received your salary with/or salary is pegged to) (Any salary between August-December 2022 for example)
+    required: false
+    choices:
+      - Others
+  - label: Your current company's name (Having the company's name is our only way to validate that your record can be trusted. We guarantee it's not to be published anywhere, If there's no way you can add it then type ***** to override the validation)
+    required: false
+    choices:
+      - Others
+  - label: Company Location in case it's operating from Egypt (Majority of employees are working from Egypt, not necessarily the HQ)
+    required: true
+    choices:
+      - Cairo
+      - Alexandria
+      - Hurghada (Or Gouna)
+      - Port Said / Suez
+      - Mansoura
+      - Faiyum
+      - Luxor / Aswan
+      - Others
+  - label: Your company is considered
+    required: true
+    choices:
+      - A Start-up
+      - A Small and Medium Enterprise
+      - Large Enterprise or Multinational Company
+      - Others
+
+  - label: You work in a
+    required: true
+    choices:
+      - Software House
+      - Product-based company
+      - Others
+
+  - label: The business main focus is
+    required: true
+    choices:
+      - B2B
+      - B2C
+      - B2B & B2C lines
+      - Others
+  - label: You work from
+    required: true
+    choices:
+      - Office for a company in Egypt
+      - Home for a company in Egypt
+      - Hybrid for a company in Egypt (e.g 2-3 days from home or office)
+      - Home for a company abroad (Remote employee)
+      - Abroad in another country (Relocated elsewhere)
+      - Others
+
+  - label: Do you think you earn what you deserve?
+    required: true
+    choices:
+      - Yes
+      - No, I should earn more than that
+      - No, I should earn less than that
+      - Not sure
+      - Others
+
+  - label: If you were to apply for a new job, how much your expected net salary will be? (With the currency you currently receive your salary with/or salary is pegged to) (2 thousands == 2000)
+    required: false
+    choices:
+      - Others
+
+  - label: Do you prefer working from office or home?
+    required: false
+    choices:
+      - Home
+      - Office
+      - Hybrid (2-3 Days from either of them)
+      - Others
+  
+  - label: Did a company that you worked in during 2023 had layoffs?
+    required: false
+    choices:
+      - Yes
+      - No
+
+  - label: In case the previous answer was Yes, were you affected by these layoffs?
+    required: false
+    choices:
+      - Yes
+      - No

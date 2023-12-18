@@ -33,8 +33,6 @@ questions:
     multiple: true
     choices:
       - Arabic
-      - Amazigh
-      - French
       - English
       - Others
 
@@ -44,7 +42,7 @@ questions:
       - Yes
       - No
 
-  - label: Do you think we need more content in Darija?
+  - label: Do you think we need more content in Arabic?
     required: true
     choices:
       - Spoken

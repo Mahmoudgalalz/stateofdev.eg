@@ -99,6 +99,7 @@ questions:
     multiple: true
     choices:
       - jQuery
+      - Astro.js
       - React.js
       - Angular
       - Vue.js
@@ -121,6 +122,7 @@ questions:
       - jQuery
       - React.js
       - Angular
+      - Astro.js
       - Vue.js
       - Angular.js
       - Gatsby
@@ -290,7 +292,7 @@ questions:
       - Oracle Cloud
       - IBM Cloud
       - DigitalOcean
-      - Other Moroccan Cloud providers
+      - Other Egyptian Cloud providers
       - Other cloud providers
       - None
 
